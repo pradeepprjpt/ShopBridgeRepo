@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShopBridge</name>
+    </assembly>
+    <members>
+        <member name="T:ShopBridge.Controllers.v1.InventoryController">
+            <summary>
+            Inventory Controller
+            </summary>
+        </member>
+        <member name="M:ShopBridge.Controllers.v1.InventoryController.#ctor(ShopBridge.DAO.IInventoryRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger{ShopBridge.Controllers.v1.InventoryController})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="inventoryRepository"></param>
+            <param name="mapper"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:ShopBridge.Controllers.v1.InventoryController.GetAll">
+            <summary>
+            Get all inventories
+            </summary>
+            <returns>The list of inventories</returns>
+        </member>
+        <member name="M:ShopBridge.Controllers.v1.InventoryController.Add(ShopBridge.Request.InventoryAddRequest)">
+            <summary>
+            Add inventory
+            </summary>
+            <param name="request">InventoryAddRequest Object</param>
+            <returns>Returns created inventory</returns>
+        </member>
+        <member name="M:ShopBridge.Controllers.v1.InventoryController.Delete(System.Int32)">
+            <summary>
+            Deletes inventory by id
+            </summary>
+            <param name="id">id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopBridge.Controllers.v1.InventoryController.Get(System.String)">
+            <summary>
+            Returns inventory by name
+            </summary>
+            <param name="name">name</param>
+            <returns>Inventory</returns>
+        </member>
+        <member name="M:ShopBridge.Controllers.v1.InventoryController.Update(ShopBridge.Request.InventoryUpdateRequest)">
+            <summary>
+            Update inventory
+            </summary>
+            <param name="request">inventory</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridgeApi", "ShopBridgeApi.csproj", "{8320D96C-9AE4-4169-914E-D0401B099086}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{78A99F39-41FE-4973-AA76-C73689F0F10C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridge.Api.IntegrationTests", "..\ShopBridge.Api.IntegrationTests\ShopBridge.Api.IntegrationTests.csproj", "{1EE5CE0B-654B-4D83-97EB-F0970526F8DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8320D96C-9AE4-4169-914E-D0401B099086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8320D96C-9AE4-4169-914E-D0401B099086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8320D96C-9AE4-4169-914E-D0401B099086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8320D96C-9AE4-4169-914E-D0401B099086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE5CE0B-654B-4D83-97EB-F0970526F8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE5CE0B-654B-4D83-97EB-F0970526F8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE5CE0B-654B-4D83-97EB-F0970526F8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE5CE0B-654B-4D83-97EB-F0970526F8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2527D9AB-B254-401D-AB13-E44B97D8D3FD}
+	EndGlobalSection
+EndGlobal
